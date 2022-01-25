@@ -1,0 +1,10 @@
+yarn add -D typescript -> Adicionar documentação typescript
+yarn init - y --> Iniciar um pacote JSON na pasta
+yarn add express --> Adiconar express(Framework)
+npm install "nome da bliblioteca" -save --> baixar biblioteca desejada globalmente
+npm add -D "nome da biblicote" --> É somente na pasta desejada
+
+Gerenciador de pacotes : NPM e Yarn
+
+yarn ts-node-dev -D --> Para tempo de conversão e compilação em tempo real
+yarn create react-app frontend --template=typescript// Cria um pacote frontend com o React

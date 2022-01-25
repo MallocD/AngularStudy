@@ -1,0 +1,7 @@
+package.json-> Contem as dependencias da aplicação angular, como o xml do Maven/SpringBoot
+
+angular.json-> Contem as informações globais da aplicação, assets: contem as imagens  e arquivos estaticos, styles:css, script: js
+
+index-> A pagina principal, onde fica tudo envelopada, ASP - A single-page application;
+main-> Realizar o botstrap da aplicação
+node.modules> Onde ficam envelopados todos os arquivos de dependencia
