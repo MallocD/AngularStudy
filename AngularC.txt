@@ -5,3 +5,5 @@ angular.json-> Contem as informações globais da aplicação, assets: contem as
 index-> A pagina principal, onde fica tudo envelopada, ASP - A single-page application;
 main-> Realizar o botstrap da aplicação
 node.modules> Onde ficam envelopados todos os arquivos de dependencia
+
+*Interpolação: A Interpolação nada mais é do que um recurso de ‘embedar’ expressões dentro de uma área delimitada por {{ .. }}.
