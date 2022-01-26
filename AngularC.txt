@@ -7,3 +7,20 @@ main-> Realizar o botstrap da aplicação
 node.modules> Onde ficam envelopados todos os arquivos de dependencia
 
 *Interpolação: A Interpolação nada mais é do que um recurso de ‘embedar’ expressões dentro de uma área delimitada por {{ .. }}.
+
+É de extrema importancia declarar o arquivo css como um componenente do componenente principal;
+
+Sempre importante declarar os novos componentes criados dentro do module
+
+Selector =  Quando for utilizado em outro component
+Via URL= Não é necessário selector por está sendo feito por rotas
+
+    path: '', redirectTo: 'courses', pathMatch: 'full'//Rota que redireciona para o courses
+      },
+      {
+        path: 'courses', component: CourseListComponent//Chama o component CourseList
+      },
+      {
+        path: '**', component: Error404Compononent//Usado para qualquer rota que for declarada diferente
+      }
+    ])
