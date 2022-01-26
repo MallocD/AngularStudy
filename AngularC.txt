@@ -24,3 +24,6 @@ Via URL= Não é necessário selector por está sendo feito por rotas
         path: '**', component: Error404Compononent//Usado para qualquer rota que for declarada diferente
       }
     ])
+[ngClass] -> Passar Classes dinamicamente
+[(ngModel)] -> Chama classe criada e seu método
+#nomedesejada = 'ngModel' -> Criar uma váriavel que irá receber o valor do ngModel
